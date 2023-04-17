@@ -1,33 +1,12 @@
- 
+This project is to create a learning device to assist in object recognition for someone that has learning differences. 
 
+Hardware:
+Kittenbot Meowbit (1)
+20 pin IO Board (1)
+Button modules (4)
+Neopixels soldered to buttons (4)
+Acrylic cylinders as large buttons
+3D printed enclosure base
+Laser cut enclosure top
 
-> Open this page at [https://minki710.github.io/studio-ueducatese-oli/](https://minki710.github.io/studio-ueducatese-oli/)
-
-## Use as Extension
-
-This repository can be added as an **extension** in MakeCode.
-
-* open [https://arcade.makecode.com/](https://arcade.makecode.com/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/minki710/studio-ueducatese-oli** and import
-
-## Edit this project ![Build status badge](https://github.com/minki710/studio-ueducatese-oli/workflows/MakeCode/badge.svg)
-
-To edit this repository in MakeCode.
-
-* open [https://arcade.makecode.com/](https://arcade.makecode.com/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/minki710/studio-ueducatese-oli** and click import
-
-## Blocks preview
-
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
-
-![A rendered view of the blocks](https://github.com/minki710/studio-ueducatese-oli/raw/master/.github/makecode/blocks.png)
-
-#### Metadata (used for search, rendering)
-
-* for PXT/arcade
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+The Meowbit displays one of four images randomly. The user then pushes the corresponding button that matches the image. If it is correct, the button will flash and a new image will appear. If it is incorrect, the image will reappear. 
